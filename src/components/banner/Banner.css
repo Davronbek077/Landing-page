@@ -1,0 +1,621 @@
+.banner-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.banner-wrap .banner-img img{
+    width: auto;
+    height: 465px;
+}
+
+.banner-text h1{
+    width: 330px;
+    font-size: 40px;
+}
+
+.banner-text p{
+    width: 460px;
+    padding-top: 22px;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.banner-btn .more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.banner-btn .started a, .banner-btn .more a{
+    text-decoration: none;
+}
+
+.banner-btn .more img{
+    width: auto;
+    height: 40px;
+}
+
+
+.banner-btn .started a{
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 102, 0, 1);
+    padding: 7px 18px;
+    color: white;
+}
+
+.banner-btn .more a{
+    color: black;
+}
+
+.banner-card-text{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.banner-card-text h3{
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.banner-card-text p{
+    color: rgba(138, 137, 142, 1);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.banner-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    gap: 40px;
+}
+
+.banner-card {
+    width: 270px;
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    border-radius: 16px;
+    padding-top: 40px;
+    box-shadow: 0 23px 23px rgba(0, 0, 0, 0.18);
+}
+
+.banner-card img{
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-cards #midcard{
+    padding-top: 47px;
+}
+.banner-cards .banner-card .cardp{
+    max-width: 210px;
+    min-width: 210px;
+}
+
+.banner-cards #midbtn{
+    margin-top: 33px;
+}
+
+.banner-card h3{
+    padding-bottom: 20px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.banner-card p{
+    font-size: 15px;
+}
+
+.banner-card #vid{
+    width: auto;
+    height: 40px;
+}
+
+.card-btn{
+    margin-top: 30px;
+}
+
+.card-btn a{
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 102, 0, 1);
+    padding: 8px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.banner-img-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 130px;
+}
+
+.img-text p{
+    width: 340px;
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 15px;
+}
+
+.img-text h3{
+    width: 200px;
+    color: rgba(30, 14, 98, 1);
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.banner-img img{
+    width: auto;
+    height: 250px;
+}
+
+.img-btn{
+    margin-top: 50px;
+}
+
+.img-btn a{
+    border: 2px solid rgba(235, 234, 237, 1);
+    padding: 7px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgba(30, 14, 98, 1);
+    font-size: 15px;
+}
+
+.clients-text #title, .clients-text #text{
+    text-align: center;
+}
+
+.clients-wrapper{
+    margin-top: 120px;
+}
+
+.clients-text #title{
+    color: rgba(138, 137, 142, 1);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.clients-text #text{
+    font-size: 31px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.clients-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.client-text p{
+    width: 270px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.client-imgtext{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bottom-text{
+    color: rgb(181, 181, 181);
+    margin-top: 15px;
+}
+
+.client-text .bottom-text{
+    font-size: 12px;
+}
+
+.clients1, .clients2{
+    display: flex;
+    gap: 60px;
+}
+
+#kayley{
+    margin-top: 38px;
+}
+
+#gene{
+    margin-top: 70px;
+}
+
+#alan{
+    margin-top: 48px;
+}
+
+.team-wrapper{
+    margin-top: 100px;
+}
+
+.teams-info{
+    text-align: center;
+}
+
+.teams-info p{
+    color: rgba(138, 137, 142, 1);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.teams-info h3{
+    font-size: 31px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.team-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 30px;
+}
+
+.team-img img{
+    width: 85px;
+    height: auto;
+}
+
+.team-img{
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.team{
+    width: 270px;
+    height: 265px;
+    text-align: center;
+    border: 2px solid rgba(235, 234, 237, 1);
+    border-radius: 6px;
+}
+
+.team-icon{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 28px;
+    border-top: 1px solid rgba(235, 234, 237, 1);
+}
+
+.team-icon .icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(235, 234, 237, 1);
+}
+
+.team-icon .icon img{
+    width: 15px;
+    height: auto;
+}
+
+.team-icon .icon #tw{
+    width: 17px;
+    height: auto;
+}
+
+.team-text h3{
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: rgba(30, 14, 98, 1);
+    padding-bottom: 11px;
+}
+
+.team-text p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(181, 181, 181);
+}
+
+.news-wrapper{
+    margin-top: 80px;
+}
+
+.news-text{
+    text-align: center;
+}
+
+.news-text p{
+    color: rgba(138, 137, 142, 1);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.news-text h3{
+    font-size: 31px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.news-mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 60px;
+}
+
+.mail-img img{
+    width: auto;
+    height: 200px;
+}
+
+.mail-text{
+    width: 650px;
+    font-size: 15px;
+}
+
+.mail-text input{
+    width: 88%;
+    height: 56px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 50px;
+    padding-left: 40px;
+    font-size: 17px;
+    margin-top: 33px;
+    box-shadow: 0px 20px 18px 0 rgb(228, 228, 228);
+}
+
+.mail-text input:focus{
+    outline: none;
+}
+
+.mail-text input::placeholder{
+    color: black;
+}
+
+.mail-btn{
+    width: 88%;
+    margin-top: 30px;
+}
+
+.mail-btn button{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 102, 0, 1);
+    padding: 10px 12px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1035px) {
+    .banner-text h1{
+        width: 300px;
+        font-size: 35px;
+    }
+    
+    .banner-text p{
+        width: 440px;
+        padding-top: 22px;
+        font-size: 15px;
+    }
+
+    .banner-wrap .banner-img img{
+        width: auto;
+        height: 425px;
+    }
+}
+
+#hide{
+    display: none;
+}
+
+@media screen and (max-width: 950px) {
+    .banner-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-text h1{
+        text-align: center;
+    }
+    
+    .banner-text p{
+        text-align: center;
+    }
+
+    .banner-text{
+        display: grid;
+        place-items: center;
+        margin-top: 60px;
+    }
+
+    .banner-wrap{
+        display: none;
+    }
+
+    #hide{
+        display: block;
+        align-items: center;
+    }
+
+    .banner-wrap .banner-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-card-wrap{
+        margin-top: 95px;
+    }
+
+    .banner-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .banner-img-wrap{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-text {
+        display: grid;
+        place-items: center;
+    }
+    
+
+    .img-text h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .clients-wrap, .clients1, .clients2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients1{
+        width: 100%;
+        max-width: 500px;
+    }
+    .clients2{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .clients1 .client-text p, .clients2 .client-text p{
+        width: 100%;
+    }
+
+    .team-wrap {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 26px;
+        margin-top: 30px;
+        padding: 0 20px;
+        justify-items: center;
+      }
+
+      .team-wrap {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .team-wrap .team:nth-child(3) {
+        grid-column: 1 / -1;
+      }
+
+      .news-mail{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .banner-card{
+        margin-bottom: 20px;
+      }
+      
+}
+
+@media screen and (max-width: 651px) {
+    .news-mail{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mail-text{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    .mail-text p{
+        text-align: center;
+    }
+}
+  
+  @media screen and (max-width: 620px) {
+    .team-wrap {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 612px) {
+    .banner-text{
+        width: 100%;
+    }
+
+    .banner-text h1{
+        width: 100%;
+        max-width: 330px;
+        font-size: 28px;
+    }
+    
+    .banner-text p{
+        width: 100%;
+        max-width: 460px;
+        padding-top: 22px;
+    }
+
+    .banner-wrap .banner-img img{
+        width: auto;
+        height: 350px;
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .banner-btn{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 477px) {
+    .banner-wrap .banner-img img{
+        width: auto;
+        height: 270px;
+    }
+  }
+
+  @media screen and (max-width: 495px){
+    .banner-img img{
+        width: auto;
+        height: 190px;
+    }
+
+    .banner-card-text h3, .clients-text #text, 
+    .teams-info #team-text, .news-text h3{
+        font-size: 25px;
+    }
+  }
