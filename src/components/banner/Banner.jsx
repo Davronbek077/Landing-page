@@ -221,13 +221,16 @@ const Banner = () => {
 
               <div className="team-icon">
                 <div className="icon">
-                  <img id='tw' src={twitter} alt="" />
+                <a href="https://twitter.com" target="_blank"> 
+                <img id='tw' src={twitter} alt="Twitter" /></a>
                 </div>
                 <div className="icon">
-                  <img src={facebook} alt="" />
+                  <a href="https://facebook.com" target="_blank"> 
+                  <img src={facebook} alt="Facebook" /></a>
                 </div>
                 <div className="icon">
-                  <img src={dribble} alt="" />
+                  <a href="https://dribbble.com" target="_blank"> 
+                  <img src={dribble} alt="Dribbble" /></a>
                 </div>
               </div>
             </div>
@@ -244,13 +247,16 @@ const Banner = () => {
 
               <div className="team-icon">
                 <div className="icon">
-                  <img id='tw' src={twitter} alt="" />
+                <a href="https://twitter.com" target="_blank"> 
+                <img id='tw' src={twitter} alt="Twitter" /></a>
                 </div>
                 <div className="icon">
-                  <img src={facebook} alt="" />
+                  <a href="https://facebook.com" target="_blank"> 
+                  <img src={facebook} alt="Facebook" /></a>
                 </div>
                 <div className="icon">
-                  <img src={dribble} alt="" />
+                  <a href="https://dribbble.com" target="_blank"> 
+                  <img src={dribble} alt="Dribbble" /></a>
                 </div>
               </div>
             </div>
@@ -267,13 +273,16 @@ const Banner = () => {
 
               <div className="team-icon">
                 <div className="icon">
-                  <img id='tw' src={twitter} alt="" />
+                  <a href="https://twitter.com" target="_blank"> 
+                  <img id='tw' src={twitter} alt="Twitter" /></a>
                 </div>
                 <div className="icon">
-                  <img src={facebook} alt="" />
+                  <a href="https://facebook.com" target="_blank"> 
+                  <img src={facebook} alt="Facebook" /></a>
                 </div>
                 <div className="icon">
-                  <img src={dribble} alt="" />
+                  <a href="https://dribbble.com" target="_blank"> 
+                  <img src={dribble} alt="Dribbble" /></a>
                 </div>
               </div>
             </div>

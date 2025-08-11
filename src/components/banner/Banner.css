@@ -40,7 +40,7 @@
 .banner-btn .started a, .banner-btn .more a{
     text-decoration: none;
 }
-
+ 
 .banner-btn .more img{
     width: auto;
     height: 40px;
@@ -52,6 +52,15 @@
     border-radius: 8px;
     background-color: rgba(255, 102, 0, 1);
     padding: 7px 18px;
+    color: white;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.banner-btn .started a:hover{
+    transform: scale(1.02);
+    background-color: rgb(255, 72, 0);
+    box-shadow: 5px 5px 10px 0 rgb(255, 123, 0);
     color: white;
 }
 
@@ -94,6 +103,12 @@
     border-radius: 16px;
     padding-top: 40px;
     box-shadow: 0 23px 23px rgba(0, 0, 0, 0.18);
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.banner-card:hover{
+    transform: translateY(-10px);
 }
 
 .banner-card img{
@@ -141,6 +156,13 @@
     text-decoration: none;
     color: white;
     font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.card-btn a:hover{
+    transform: scale(1.02);
+    background-color: rgb(255, 60, 0);
+    color: white;
 }
 
 .banner-img-wrap{
@@ -180,6 +202,13 @@
     text-decoration: none;
     color: rgba(30, 14, 98, 1);
     font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.img-btn a:hover{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    color: white;
 }
 
 .clients-text #title, .clients-text #text{
@@ -412,6 +441,13 @@
     padding: 10px 12px;
     color: white;
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mail-btn button:hover{
+    transform: scale(1.01);
+    background-color: rgb(255, 60, 0);
+    color: white;
 }
 
 @media screen and (max-width: 1035px) {
@@ -619,3 +655,36 @@
         font-size: 25px;
     }
   }
+
+  .team-icon .icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(235, 234, 237, 1);
+    transition: background-color 0.3s ease;
+}
+
+.team-icon .icon:hover {
+    background-color: rgba(224, 97, 12, 0.197);
+    cursor: pointer;
+}
+
+.team-icon .icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.team-icon .icon img {
+    width: 15px;
+    height: auto;
+}
+
+.team-icon .icon #tw {
+    width: 17px;
+    height: auto;
+}
