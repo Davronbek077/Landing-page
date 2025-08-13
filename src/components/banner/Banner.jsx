@@ -1,4 +1,7 @@
 import React from 'react'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 import more from "../../assets/more.png"
 import bannerImg from "../../assets/bannerImg.png"
 import card1 from "../../assets/card1.png"
@@ -35,19 +38,19 @@ const Banner = () => {
               </div>
 
               <div className="more">
-                <img src={more} alt="" />
+                <LazyLoadImage src={more} alt="" effect="blur" />
                 <a href="#">Learn More</a>
               </div>
             </div>
           </div>
 
           <div className="banner-img">
-            <img src={bannerImg} alt="" />
+            <LazyLoadImage src={bannerImg} alt="" effect="blur" />
           </div>
         </div>
         <div id='hide' className="banner-wrap">
         <div className="banner-img">
-            <img src={bannerImg} alt="" />
+            <LazyLoadImage src={bannerImg} alt="" effect="blur" />
           </div>
           <div className="banner-text">
           <h1>We boost
@@ -61,7 +64,7 @@ const Banner = () => {
               </div>
 
               <div className="more">
-                <img src={more} alt="" />
+                <LazyLoadImage src={more} alt="" effect="blur" />
                 <a href="#">Learn More</a>
               </div>
             </div>
@@ -76,7 +79,7 @@ const Banner = () => {
 
           <div className="banner-cards">
             <div className="banner-card">
-              <img src={card1} alt="" />
+              <LazyLoadImage src={card1} alt="" effect="blur" />
 
               <h3>Graphic Design</h3>
               <div className="cardp">
@@ -90,7 +93,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="banner-card" id='midcard'>
-              <img id='vid' src={card2} alt="" />
+              <LazyLoadImage id='vid' src={card2} alt="" effect="blur" />
 
               <h3>Video Editing</h3>
               <div className="cardp">
@@ -104,7 +107,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="banner-card">
-              <img src={card3} alt="" />
+              <LazyLoadImage src={card3} alt="" effect="blur" />
 
               <h3>Digital Marketing</h3>
               <div className="cardp">
@@ -132,7 +135,7 @@ const Banner = () => {
           </div>
 
           <div className="banner-img">
-            <img src={mask} alt="" />
+            <LazyLoadImage src={mask} alt="" effect="blur" />
           </div>
         </div>
 
@@ -146,7 +149,7 @@ const Banner = () => {
               <div className="client">
                 <div className="client-imgtext">
                 <div className="client-img">
-                  <img src={userpic1} alt="" />
+                  <LazyLoadImage src={userpic1} alt="" effect="blur" />
                 </div>
 
                 <div className="client-text">
@@ -159,7 +162,7 @@ const Banner = () => {
               <div className="client">
                 <div className="client-imgtext">
                 <div className="client-img">
-                  <img src={userpic2} alt="" />
+                  <LazyLoadImage src={userpic2} alt="" effect="blur" />
                 </div>
 
                 <div className="client-text">
@@ -175,7 +178,7 @@ const Banner = () => {
               <div className="client">
                 <div className="client-imgtext">
                 <div className="client-img">
-                  <img src={userpic3} alt="" />
+                  <LazyLoadImage src={userpic3} alt="" effect="blur" />
                 </div>
 
                 <div className="client-text">
@@ -188,7 +191,7 @@ const Banner = () => {
               <div className="client">
                 <div className="client-imgtext">
                 <div className="client-img">
-                  <img src={userpic4} alt="" />
+                  <LazyLoadImage src={userpic4} alt="" effect="blur" />
                 </div>
 
                 <div className="client-text">
@@ -211,7 +214,7 @@ const Banner = () => {
           <div className="team-wrap">
             <div className="team">
               <div className="team-img">
-              <img src={team1} alt="" />
+              <LazyLoadImage src={team1} alt="" effect="blur" />
               </div>
 
               <div className="team-text">
@@ -222,22 +225,22 @@ const Banner = () => {
               <div className="team-icon">
                 <div className="icon">
                 <a href="https://twitter.com" target="_blank"> 
-                <img id='tw' src={twitter} alt="Twitter" /></a>
+                <LazyLoadImage id='tw' src={twitter} alt="Twitter" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://facebook.com" target="_blank"> 
-                  <img src={facebook} alt="Facebook" /></a>
+                  <LazyLoadImage src={facebook} alt="Facebook" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://dribbble.com" target="_blank"> 
-                  <img src={dribble} alt="Dribbble" /></a>
+                  <LazyLoadImage src={dribble} alt="Dribbble" effect="blur" /></a>
                 </div>
               </div>
             </div>
 
             <div className="team">
               <div className="team-img">
-              <img src={team2} alt="" />
+              <LazyLoadImage src={team2} alt="" effect="blur" />
               </div>
 
               <div className="team-text">
@@ -248,22 +251,22 @@ const Banner = () => {
               <div className="team-icon">
                 <div className="icon">
                 <a href="https://twitter.com" target="_blank"> 
-                <img id='tw' src={twitter} alt="Twitter" /></a>
+                <LazyLoadImage id='tw' src={twitter} alt="Twitter" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://facebook.com" target="_blank"> 
-                  <img src={facebook} alt="Facebook" /></a>
+                  <LazyLoadImage src={facebook} alt="Facebook" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://dribbble.com" target="_blank"> 
-                  <img src={dribble} alt="Dribbble" /></a>
+                  <LazyLoadImage src={dribble} alt="Dribbble" effect="blur" /></a>
                 </div>
               </div>
             </div>
 
             <div className="team">
               <div className="team-img">
-              <img src={team3} alt="" />
+              <LazyLoadImage src={team3} alt="" effect="blur" />
               </div>
 
               <div className="team-text">
@@ -274,15 +277,15 @@ const Banner = () => {
               <div className="team-icon">
                 <div className="icon">
                   <a href="https://twitter.com" target="_blank"> 
-                  <img id='tw' src={twitter} alt="Twitter" /></a>
+                  <LazyLoadImage id='tw' src={twitter} alt="Twitter" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://facebook.com" target="_blank"> 
-                  <img src={facebook} alt="Facebook" /></a>
+                  <LazyLoadImage src={facebook} alt="Facebook" effect="blur" /></a>
                 </div>
                 <div className="icon">
                   <a href="https://dribbble.com" target="_blank"> 
-                  <img src={dribble} alt="Dribbble" /></a>
+                  <LazyLoadImage src={dribble} alt="Dribbble" effect="blur" /></a>
                 </div>
               </div>
             </div>
@@ -297,7 +300,7 @@ const Banner = () => {
 
           <div className="news-mail">
             <div className="mail-img">
-              <img src={email} alt="" />
+              <LazyLoadImage src={email} alt="" effect="blur" />
             </div>
 
             <div className="mail-text">
